@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">Teresa</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+  <!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  
+  <div class="w3-dmisplay-container w3-container">
+    <img src="https://cdn.glitch.com/ba34125c-e2f6-425a-8daf-2b2963ff90d1%2F1540288129140blob_1.jpg?1542726649981" alt="Jeans" style="width:50% ">
+   
+   
+    
+  
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>Teresa</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn1">
+    Clothes & Accessories<i class="fa fa-caret-down"></i></a>
+      
+  
+     <a href="Pots&Pans.html" class="w3-bar-item w3-button">Pots & Pans</a>
+      <div id="demoAcc1" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+    </div>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Kitchen & Home <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="bedroom.html" class="w3-bar-item w3-button w3-light-grey">Bedroom</a>
+      <a href="Pots&Pans.html" class="w3-bar-item w3-button">Pots & Pans</a>
+      <a href="Silverware.html" class="w3-bar-item w3-button">Silverware</a>
+      <a href="CountertopOven.html" class="w3-bar-item w3-button">Countertop Oven</a>
+    
+    <a href="perfumes&cologne.html" class="w3-bar-item w3-button">Perfumes & Cologne</a>
+    </div>
+  
+  
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+    
+  </div>
+</nav>
+  
+  
+  </body>
+</html>
